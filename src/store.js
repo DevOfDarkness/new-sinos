@@ -205,7 +205,16 @@ export default {
       
       Principal fomentadora, promotora e incentivadora governamental de atividades artísticas no país, a Funarte agrega, na parceria com a UFRJ, conhecimento e capacidade técnica para a execução do projeto Sinos. Uma das principais e mais respeitadas instituições de ensino superior do país, a Universidade – com sua Escola de Música – tem em seu quadro, docentes especializados, não somente em métodos e didática específicos, direcionados a alunos, como também na capacitação de professores e regentes; e no estímulo do desenvolvimento pedagógico e artístico das formações orquestrais, por meio de oficinas, palestras e preparação de material didático. 
       
-      As parcerias com a UFRJ integram uma série de ações da Funarte, como parte do Programa Funarte de Toda Gente.`
+      As parcerias com a UFRJ integram uma série de ações da Funarte, como parte do Programa Funarte de Toda Gente.
+      
+      <strong>Conheça também:</strong>
+
+      <strong>Bossa Criativa – Arte de Toda Gente</strong>
+
+      O projeto Bossa Criativa – Arte de Toda Gente reúne apresentações e oficinas de diversas linguagens artísticas e formas de economia criativa, na forma de pocket shows, performances e vídeos de capacitação.
+
+      <a href="http://www.bossacriativa.art.br/" target="__blank">Clique aqui</a> e saiba mais sobre esse projeto que, como o Sinos, é uma parceria de Funarte e UFRJ, com curadoria de sua Escola de Música, e faz parte do Programa Funarte de Toda Gente.
+      `
     },
     parceiros: {
       title: "Parceiros",
