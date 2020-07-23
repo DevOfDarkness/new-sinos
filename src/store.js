@@ -16,15 +16,35 @@ export default {
       fulltext: 'O Curso de Capacitação Pedagógica para o Ensino dos Instrumentos de Cordas é direcionado para professores e monitores de projetos sociais de todo o país. Ele é composto por 16 módulos de vídeo oficinas, a cargo de uma equipe de 16 professores e que abordam temas como postura, afinação e musicalidade, aplicadas à prática de violino, viola, violoncelo e contrabaixo.',
       modules: [
         {
-          id: 'postura-de-arco',
-          title: 'Postura de Arco',
+          id: 'afinacao',
+          title: 'Afinação',
+          image: '/img/temp-11.jpg',
+          text: 'Aulas com Luciana Arraes.',
+          classes: [
+            {
+              title: "Aula 1",
+              text: "Notas de ressonância",
+              youtube: "https://www.youtube.com/watch?v=P0fVPrcOsq4",
+              download: []
+            }
+          ]
+        },
+        {
+          id: 'postura-do-arco',
+          title: 'Postura do Arco',
           image: '/img/temp-10.jpg',
-          text: 'Aulas com Carla Rincon (violino e viola), Ronildo Alves (Violoncelo) e Voila Marques (Contrabaixo).',
+          text: 'Aulas com Carla Rincón (violino e viola), Ronildo Alves (Violoncelo) e Voila Marques (Contrabaixo).',
           classes: [
             {
               title: "Aula 1",
               text: "",
               youtube: "https://www.youtube.com/watch?v=cdZgeJ53xKk",
+              download: []
+            },
+            {
+              title: "Aula 2",
+              text: "Espelho como corretor de postura, braço direito e mão",
+              youtube: "https://www.youtube.com/watch?v=ZCuy0g00EI0",
               download: []
             }
           ]
@@ -53,6 +73,12 @@ export default {
               title: "Aula 1",
               text: "",
               youtube: "https://www.youtube.com/watch?v=-JPaHlzXwdw",
+              download: []
+            },
+            {
+              title: "Aula 2",
+              text: "Definição de boa sonoridade/infinito",
+              youtube: "https://www.youtube.com/watch?v=F3ZQv7ew2Tk",
               download: []
             }
           ]
@@ -103,7 +129,7 @@ export default {
             {
               title: "Aula 1",
               text: "",
-              youtube: "https://www.youtube.com/watch?v=b8m20L13WxQ",
+              youtube: "https://www.youtube.com/watch?v=Cq-bSTA0LHo",
               download: []
             }
           ]
@@ -229,6 +255,20 @@ export default {
       <img src="/img/sinos-parceiros.png" alt="" />
       `
     },
+    imprensa: {
+      title: 'Imprensa',
+      text:"",
+      fulltext: `<strong>Contatos</strong>
+
+      Assessoria de imprensa:
+      Projetos UFRJ – Funarte: imprensa@musica.ufrj.br
+      Funarte – Assessoria de Comunicação: ascomfunarte@funarte.gov.br
+      
+      Releases
+      - Funarte de Toda Gente
+      - Sinos 
+      `
+    },
     eorquestras: {
       image: '/img/temp-1.jpg',
       text: "Aqui jovens músicos de orquestras de projetos sociais de todo o Brasil se reunem com instrumentistas profissionais, numa grande celebração da música sinfônica brasileira. As apresentações, que conjugam as participações isoladas de cada músico, são registradas em vídeos, com execuções de peças orquestrais de compositores brasileiros, em formações de orquestras sinfônicas, de cordas e de sopros."
@@ -251,32 +291,36 @@ export default {
     posts: [
       {
         id: 1,
-        date: '2020-07-15',
-        time: '14h',
-        title: 'Aula para instrumentos de corda',
+        date: '2020-07-17',
+        time: '10h',
+        title: 'André Cardoso',
+        text: 'Os primórdios da direção de conjuntos musicais',
         cat: 0
       },
       {
         id: 1,
         date: '2020-07-20',
-        time: '14h',
-        title: 'Aula para instrumentos de sopro',
+        time: '10h',
+        title: 'Ronildo Alves',
+        text: 'Conhecendo os espaços de ensino, materiais para as aulas e objetos para o aprendizado do violoncelo.',
         cat: 1
       },
       {
         id: 1,
-        date: '2020-08-02',
-        time: '14h',
-        title: 'Aula para instrumentos de corda',
+        date: '2020-07-20',
+        time: '10h',
+        title: 'Carla Rincón',
+        text: 'Exercícios de arco sem instrumento e uso do espelho',
         cat: 2
       },
       {
         id: 1,
-        date: '2020-08-30',
-        time: '14h',
-        title: 'Aula para instrumentos de sopro',
+        date: '2020-07-20',
+        time: '10h',
+        title: 'Simone dos Santos',
+        text: 'Como escolher a melhor opção da queixeira e espaleira',
         cat: 0
-      },
+      }
     ]
   }
 }
