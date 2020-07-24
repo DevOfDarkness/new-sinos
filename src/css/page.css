@@ -20,7 +20,7 @@
     display: none;
   }
 
-  @screen md {
+  @screen lg {
     @apply flex-row;
     .mobile-menu {
       display: none;
@@ -35,7 +35,7 @@
     position: sticky;
     top: 2em;
     min-width: 240px;
-    @screen md {
+    @screen lg {
       @apply ml-20 mx-8 -mt-8 mb-8 mr-0;
     }
     .title {
@@ -48,16 +48,16 @@
     @apply flex justify-center w-full;
     
     .content {
-      @apply p-5 m-8 bg-white w-full;
+      @apply p-10 m-8 bg-white w-full;
       min-height: 80vh;
-      @screen md {
+      @screen lg {
         @apply p-16 m-10 mt-8;
       }
     }
   }
 }
 
-.curso-view {
+.page-view {
   .title-1 {
     @apply text-2xl mb-2;
   }
@@ -71,6 +71,9 @@
       text-decoration: underline;
     }
   }
+}
+
+.curso-view {
   .curso-select {
     @apply px-2 py-1 mr-1 mb-1 uppercase inline-block leading-tight;
     background-color: var(--red);
@@ -84,20 +87,20 @@
   .aulas-panel {
     @apply flex flex-col-reverse;
 
-    @screen md {
+    @screen lg {
       @apply flex-row;
     }
 
     .aulas-select {
       @apply  mr-5 flex;
 
-      @screen md {
+      @screen lg {
         @apply flex-col w-2/12;
       }
 
       .aula {
         @apply m-2 w-20;
-        @screen md {
+        @screen lg {
           @apply w-auto;
         }
         cursor: pointer;
@@ -105,9 +108,50 @@
     }
     .aulas-view {
       @apply mb-10;
-      @screen md {
+      @screen lg {
         @apply w-10/12
       }
     }
   }
+}
+
+.posts-view {
+
+  .posts-feed {
+
+    .post {
+      @apply mb-10;
+    }
+    
+    @screen md {
+      @apply flex flex-wrap -m-4;
+      .post {
+        @apply w-1/2 p-4 m-0;
+      }
+    }
+    
+    @screen lg {
+      .post {
+        @apply w-1/3;
+      }
+    }
+
+    .post-image {
+      @apply mb-2 block;
+    }
+
+    .post-title {
+      @apply mb-2 leading-tight block;
+    }
+
+    .post-text {
+      @apply text-sm;
+    }
+
+    .post-date {
+      @apply text-xs;
+    }
+
+  }
+
 }

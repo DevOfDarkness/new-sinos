@@ -13,7 +13,7 @@ import PageDefault from './PageDefault'
 import YouThumb from './YouThumb'
 import YouEmbed from './YouEmbed'
 
-function Cursos() {
+function PageCursos() {
 
   const {id} = useParams()
   const programa = R.find(R.propEq('id', id), store.cursos)
@@ -22,11 +22,11 @@ function Cursos() {
 
   return (
     <PageDefault title={programa.title}>
-      <div class="curso-view">
+      <div class="page-view curso-view">
         <Switch>
 
           <Route exact path={path}>
-            <div class="title-1">{programa.title}</div>
+            <div class="title-1">Cursos {programa.title}</div>
             <p>{programa.fulltext}</p>
             <p>&nbsp;</p>
             <p>Selecione um curso</p>
@@ -53,7 +53,7 @@ function Curso(props) {
 
   return (
     <>
-      <div class="title-1"><Link to={`/cursos/${programa.id}`}>{programa.title}</Link> &raquo; {curso.title}</div>
+      <div class="title-1"><Link to={`/cursos/${programa.id}`}>Cursos {programa.title}</Link> &raquo; {curso.title}</div>
       <p>{curso.fulltext}</p>
       <p>{curso.text}</p>
       <p>&nbsp;</p>
@@ -91,4 +91,4 @@ function AulaView(props) {
   )
 }
 
-export default Cursos;
+export default PageCursos;
